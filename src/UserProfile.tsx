@@ -9,9 +9,9 @@ export const UserProfile: VFC<Props> = (props) => {
   const { user } = props;
   return (
     <dl>
-      <td>名前</td>
+      <dt>名前</dt>
       <dd>{user.name}</dd>
-      <td>趣味</td>
+      <dt>趣味</dt>
       <dd>{user.hobbies?.join(" / ")}</dd>
     </dl>
   );
